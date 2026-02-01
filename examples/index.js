@@ -43,7 +43,7 @@ app.use(require('express-favicon-short-circuit'));
 
 // Example route throwing requested status code
 app.get('/return-status/:statusCode', (req, res) =>
-  res.sendStatus(req.params.statusCode),
+  res.sendStatus(+req.params.statusCode),
 );
 
 app.listen(port, () => {

@@ -63,12 +63,12 @@
   },
   "license": "MIT",
   "dependencies": {
-    "axios": "^1.4.0",
-    "debug": "^4.3.4",
-    "handlebars": "^4.7.7",
-    "on-headers": "^1.0.2",
-    "pidusage": "^3.0.2",
-    "socket.io": "^4.7.1"
+    "axios": "^1.13.4",
+    "debug": "^4.4.3",
+    "handlebars": "^4.7.8",
+    "on-headers": "^1.1.0",
+    "pidusage": "^4.0.1",
+    "socket.io": "^4.8.3"
   },
   "optionalDependencies": {
     "event-loop-stats": "^1.4.1"
@@ -80,10 +80,10 @@
     "eslint": "eslint ."
   },
   "devDependencies": {
-    "chai": "^4.3.7",
-    "eslint": "^8.44.0",
-    "mocha": "^10.2.0",
-    "sinon": "^15.2.0"
+    "chai": "^6.2.2",
+    "eslint": "^9.39.2",
+    "mocha": "^11.7.5",
+    "sinon": "^21.0.1"
   },
   "funding": {
     "type": "individual",
